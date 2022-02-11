@@ -11,21 +11,15 @@ public class SalaryCalculation {
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
 		
-		 double salarioMinimo = 788.00f;
-		 double counter;
+		 double SalarioMinimo = 788.00f;
 		
 		System.out.println("indique o seu salario:?");
-		double salaryUser = sc.nextDouble();
+		double SalaryUser = sc.nextDouble();
+		
+		double SalaryAmount = SalarioMinimo - SalaryUser;
 		
 		
-		//double SalaryAmount = SalaryUser - SalarioMinimo;
-		
-		for(counter = salaryUser; counter >= salarioMinimo ; counter -= 1 ) {
-			System.out.println(counter);
-		}
-		
-		// System.out.println(" os salários mínimos são: " + SalaryAmount);
-		
+		System.out.printf(" os salários mínimos são: %s ",SalaryAmount);
 		
 		sc.close();
 
