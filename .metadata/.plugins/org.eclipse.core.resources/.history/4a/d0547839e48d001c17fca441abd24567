@@ -1,0 +1,36 @@
+import java.util.Locale;
+import java.util.Scanner;
+
+public class SalaryCalculation {
+	public static void main(String[] args) {
+		/*
+		 Crie um algoritmo que leia o valor do salário mínimo e o valor do salário de um usuário,
+		calcule a quantidade de salários mínimos esse usuário ganha e imprima o resultado.
+		(1 salario minimo = $ 788,00)
+		 */
+		Locale.setDefault(Locale.US);
+		Scanner sc = new Scanner(System.in);
+		
+		 double salarioMinimo = 788.00f;
+		 
+		
+		System.out.println("indique o seu salario:?");
+		double salaryUser = sc.nextDouble();
+		
+		
+		double salaryAmount = salaryUser / salarioMinimo;
+		
+		/*
+		for( counter = SalaryUser; counter >= 0 ; counter -= 1 ) {
+			System.out.println(counter);
+		}*/
+		
+		
+		 System.out.println(" os salários mínimos são: " + salaryAmount);
+		
+		
+		sc.close();
+
+	}
+
+}
