@@ -1,0 +1,22 @@
+package createVetorExercises;
+
+import java.util.Arrays;
+
+public class CreateVetor {
+
+	/*	
+	 	Crie dois vetores de 50 posições com valores inteiros aleatórios, ordene cada vetor
+		individualmente, e combine os dois vetores gerando um novo vetor de 100 posições, de
+		forma que esse novo vetor já seja criado ordenado
+	 */
+	public static void main(String[] args) {
+		
+		int num[] = int[50];
+		
+		Arrays.fill(num, 8);
+		
+		for (int valor: num) {
+			System.out.println(valor);		}
+		
+	}
+}

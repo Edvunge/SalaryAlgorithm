@@ -48,6 +48,57 @@ public class CreateVetor {
 		
 		
 		
+		//Random gerador = new Random();
+		/*
+		int vetorOne[] = new int[8];
+		
+		int vetorTwo[] = new int[7];
+		*/
+		
+		// arrays.sort(num);
+		
+		
+			
+//			int vetorOne[] = new int[50];
+//			
+//			for (int i = 0; i < 50; i++) {
+//				System.out.print(gerador.nextInt(26) + " ");		
+//				}
+//			
+			
+		
+		
+		
+		
+//		
+//		int notasJoao[] = { 16, 19, 11, 15, 10, 12, 14 };
+//
+//		for (int j = 0; j < notasJoao.length; j++) {
+//		
+//			boolean swapped = false;
+//			int i = 0;
+//			while (i < 7 - 1) {
+//			
+//				if (notasJoao[i] > notasJoao[i + 1]) {
+//			
+//					int temp = notasJoao[i];
+//					notasJoao[i] = notasJoao[i + 1];
+//					notasJoao[i + 1] = temp;
+//				
+//					swapped = true;
+//				}
+//				i++;
+//			}
+//		
+//			if (!swapped)
+//				break;
+//		}
+//
+//		for (int x : notasJoao) {
+//			System.out.println(x);
+//		}
+		
+		
 		
 		
 	}
