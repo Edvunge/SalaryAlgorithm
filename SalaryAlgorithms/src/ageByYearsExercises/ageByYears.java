@@ -9,8 +9,8 @@ public class ageByYears {
 
 	public static void main(String [] args) {
 		/*
-		 Faça um algoritmo que leia a idade de uma pessoa expressa em anos, meses e dias e
-		mostre-a expressa em dias. Leve em consideração o ano com 365 dias e o mês com 30.
+		 FaÃ§a um algoritmo que leia a idade de uma pessoa expressa em anos, meses e dias e
+		mostre-a expressa em dias. Leve em consideraÃ§Ã£o o ano com 365 dias e o mÃªs com 30.
 		(Ex: 3 anos, 2 meses e 15 dias = 1170 dias.)
 		*/
 		
@@ -43,17 +43,17 @@ public class ageByYears {
 		
 		 
 		System.out.println("digite a sua idade apenas em anos:?");
-		double years = sc.nextInt();
+		int years = sc.nextInt();
 		
 		System.out.println("digite a sua idade apenas em meses:?");
-		double moths = sc.nextInt();
+		int moths = sc.nextInt();
 		
 		System.out.println("digite a sua idade apenas em dias:?");
-		double days = sc.nextInt();
+		int days = sc.nextInt();
 		
 		days =( days + ( years * 365) + (moths * 30));
 		
-		System.out.println( " a sua idade em dias é: " + days );
+		System.out.println( " a sua idade em dias Ã©: " + days );
 		
 		sc.close();
 	*/	
