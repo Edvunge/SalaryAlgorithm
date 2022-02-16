@@ -3,7 +3,6 @@ package ageByYearsExercises;
 import java.time.LocalDate;
 import java.time.Period;
 import java.util.Locale;
-import java.util.Random;
 import java.util.Scanner;
 
 public class ageByYears {
@@ -14,8 +13,9 @@ public class ageByYears {
 		mostre-a expressa em dias. Leve em consideração o ano com 365 dias e o mês com 30.
 		(Ex: 3 anos, 2 meses e 15 dias = 1170 dias.)
 		*/
+	
 		
-
+		
 		
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
